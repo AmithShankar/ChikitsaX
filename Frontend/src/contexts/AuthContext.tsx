@@ -110,7 +110,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
           </div>
 
           <div className="absolute bottom-12 text-[10px] font-black uppercase tracking-[0.4em] text-foreground/10">
-             ArogyaX · Governance System
+             ChikitsaX · Governance System
           </div>
         </div>,
         document.body

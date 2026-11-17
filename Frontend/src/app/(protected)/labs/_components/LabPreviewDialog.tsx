@@ -29,7 +29,7 @@ export function LabPreviewDialog({ previewUrl, onClose, userRole }: LabPreviewDi
             </div>
             <div>
               <p>Medical Diagnostic Report</p>
-              <p className="text-xs text-muted-foreground font-normal">Confidential Patient Data • ArogyaX Clinical Lab</p>
+              <p className="text-xs text-muted-foreground font-normal">Confidential Patient Data • ChikitsaX Clinical Lab</p>
             </div>
           </DialogTitle>
         </DialogHeader>

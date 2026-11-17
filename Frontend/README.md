@@ -1,10 +1,10 @@
-# ArogyaX - Frontend
+# ChikitsaX - Frontend
 
 A clinically-focused, role-aware dashboard system built with **Next.js 16 App Router**. Eight distinct staff roles each get a purpose-built interface - from real-time vitals feeds for nurses to revenue summaries for admins - all rendered server-side and protected by a permission matrix enforced at both the UI and API layers.
 
 ### 🌐 Live Demo
 
-<a href="https://arogyax.amithshankar.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Visit-ArogyaX-blue?style=for-the-badge&logo=nextdotjs" alt="Live Demo"></a>
+<a href="https://chikitsax.amithshankar.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Visit-ChikitsaX-blue?style=for-the-badge&logo=nextdotjs" alt="Live Demo"></a>
 
 ---
 

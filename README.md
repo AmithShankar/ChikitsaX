@@ -1,4 +1,4 @@
-# ArogyaX
+# ChikitsaX
 
 A production-grade, full-stack hospital management system covering the entire clinical and administrative lifecycle - patient registration, bedside charting, prescriptions, lab diagnostics, billing, staff management, and compliance auditing. The architecture is built around a layered security model with role-scoped data access enforced at every layer of the stack.
 
@@ -6,8 +6,8 @@ A production-grade, full-stack hospital management system covering the entire cl
 
 ### 🌐 Live Demo
 
-<a href="https://arogyax.amithshankar.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Frontend-Live_Demo-blue?style=for-the-badge&logo=nextdotjs" alt="Frontend Live Demo"></a>
-<a href="https://arogyax-api.amithshankar.in/docs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Backend-API_Docs-green?style=for-the-badge&logo=fastapi" alt="Backend API Docs"></a>
+<a href="https://chikitsax.amithshankar.in" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Frontend-Live_Demo-blue?style=for-the-badge&logo=nextdotjs" alt="Frontend Live Demo"></a>
+<a href="https://chikitsax-api.amithshankar.in/docs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Backend-API_Docs-green?style=for-the-badge&logo=fastapi" alt="Backend API Docs"></a>
 
 ---
 

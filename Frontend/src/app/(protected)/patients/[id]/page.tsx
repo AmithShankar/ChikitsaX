@@ -19,10 +19,10 @@ export async function generateMetadata({
   const { id } = await params;
   try {
     const patient = await fetchPatient(id);
-    if (!patient) return { title: "Patient Record | ArogyaX" };
-    return { title: `${patient.name} | ArogyaX` };
+    if (!patient) return { title: "Patient Record | ChikitsaX" };
+    return { title: `${patient.name} | ChikitsaX` };
   } catch {
-    return { title: "Patient Record | ArogyaX" };
+    return { title: "Patient Record | ChikitsaX" };
   }
 }
 

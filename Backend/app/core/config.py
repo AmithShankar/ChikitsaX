@@ -4,7 +4,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    PROJECT_NAME: str = "ArogyaX"
+    PROJECT_NAME: str = "ChikitsaX"
     PROJECT_ACRONYM: str = "HPMS"
     DATABASE_URL: str = ""
     ASYNC_DATABASE_URL: str = ""

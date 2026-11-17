@@ -67,7 +67,7 @@ export function InvoicePreviewDialog({
               <div id="printable-invoice" className="print:bg-white print:text-slate-900 border rounded-2xl p-8 bg-background/50 border-border/40 shadow-sm">
                 <div className="flex justify-between items-start border-b-2 border-border/40 pb-8 mb-8">
                   <div>
-                    <div className="text-2xl font-black text-primary tracking-tighter">ArogyaX</div>
+                    <div className="text-2xl font-black text-primary tracking-tighter">ChikitsaX</div>
                     <div className="text-[10px] text-muted-foreground mt-1 font-bold uppercase tracking-widest">Smart Healthcare Management</div>
                   </div>
                   <div className="text-right">
@@ -152,7 +152,7 @@ export function InvoicePreviewDialog({
                 </div>
 
                 <div className="mt-16 pt-8 border-t border-dashed border-border/40 flex justify-between items-center text-[10px] uppercase font-bold tracking-widest text-muted-foreground/40">
-                   <div>Generated via ArogyaX Cloud</div>
+                   <div>Generated via ChikitsaX Cloud</div>
                    <div className="print:text-slate-400">Official Patient Receipt</div>
                 </div>
               </div>

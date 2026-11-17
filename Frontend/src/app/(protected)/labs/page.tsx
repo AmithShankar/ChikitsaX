@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { LabsClient } from "./_components/LabsClient";
 
 export const metadata: Metadata = {
-  title: "Labs | ArogyaX",
+  title: "Labs | ChikitsaX",
 };
 
 export default async function LabsPage() {

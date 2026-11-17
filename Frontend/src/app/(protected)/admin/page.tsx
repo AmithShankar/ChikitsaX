@@ -4,7 +4,7 @@ import { AdminCharts } from "./_components/AdminCharts";
 import { getAdminStatConfig } from "./_constants/admin-stats";
 
 export const metadata: Metadata = {
-  title: "Admin Overview | ArogyaX",
+  title: "Admin Overview | ChikitsaX",
 };
 
 import { getUser } from "@/lib/server-auth";

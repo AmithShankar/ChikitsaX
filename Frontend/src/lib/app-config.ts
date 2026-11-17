@@ -1,4 +1,4 @@
-export const APP_NAME = "ArogyaX";
+export const APP_NAME = "ChikitsaX";
 export const API_PROXY_PREFIX = "/api";
 export const API_DEV_ORIGIN = "http://localhost:8000";
 export const AUTH_COOKIE_NAME = "auth-token";

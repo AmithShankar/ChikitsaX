@@ -17,7 +17,7 @@ import { processDashboardData } from "./_utils/dashboard-data";
 import { getStatsConfig } from "./_utils/stats-config";
 
 export const metadata: Metadata = {
-  title: "Operations Dashboard | ArogyaX",
+  title: "Operations Dashboard | ChikitsaX",
 };
 
 export default async function DashboardPage() {

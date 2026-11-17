@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { PatientListClient } from "./_components/PatientListClient";
 
 export const metadata: Metadata = {
-  title: "Patient Directory | ArogyaX",
+  title: "Patient Directory | ChikitsaX",
 };
 
 export default async function PatientListPage() {

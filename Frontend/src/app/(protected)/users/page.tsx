@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { UserManagementClient } from "./_components/UserManagementClient";
 
 export const metadata: Metadata = {
-  title: "User Management | ArogyaX",
+  title: "User Management | ChikitsaX",
 };
 
 import { UNAUTHORIZED_ROUTE } from "@/lib/app-config";

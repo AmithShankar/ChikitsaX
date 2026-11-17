@@ -64,7 +64,7 @@ export function getInvoiceHtml(invoice: InvoiceWithPatient) {
       <body>
         <div class="header">
           <div>
-            <div class="brand">ArogyaX</div>
+            <div class="brand">ChikitsaX</div>
             <div style="font-size: 14px; color: #64748b; margin-top: 4px;">Smart Healthcare Management</div>
           </div>
           <div class="invoice-details">
@@ -115,7 +115,7 @@ export function getInvoiceHtml(invoice: InvoiceWithPatient) {
 
         <div class="footer">
           <p>This is a computer generated invoice. No signature required.</p>
-          <p>Thank you for choosing ArogyaX Healthcare.</p>
+          <p>Thank you for choosing ChikitsaX Healthcare.</p>
         </div>
 
         <script>

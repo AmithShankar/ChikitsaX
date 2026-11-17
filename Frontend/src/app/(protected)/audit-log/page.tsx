@@ -3,7 +3,7 @@ import { getUser } from "@/lib/server-auth";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Audit Log | ArogyaX",
+  title: "Audit Log | ChikitsaX",
 };
 
 import { UNAUTHORIZED_ROUTE } from "@/lib/app-config";

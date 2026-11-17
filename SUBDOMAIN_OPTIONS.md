@@ -12,7 +12,7 @@ Keep the stability of a long-running server on Render, but use a clean subdomain
 - Go to **Domains** -> (Your Domain) -> **Manage DNS**.
 - Add a new **CNAME Record**:
   - **Name**: `api`
-  - **Value**: Your Render URL (e.g., `arogyax-api.onrender.com`).
+  - **Value**: Your Render URL (e.g., `chikitsax-api.onrender.com`).
   - **TTL**: `60` or `Automatic`.
 
 ### 2. In the Render Dashboard
@@ -32,7 +32,7 @@ Keep the stability of a long-running server on Render, but use a clean subdomain
 Run the Python API entirely within Vercel's infrastructure.
 
 ### 1. Requirements
-You must create a `vercel.json` file in the **project root** (ArogyaX/):
+You must create a `vercel.json` file in the **project root** (ChikitsaX/):
 
 ```json
 {
@@ -62,4 +62,4 @@ You must create a `vercel.json` file in the **project root** (ArogyaX/):
 
 Go with **Option 1**. 
 
-By using a **CNAME** in Vercel pointing to Render, you get the best of both worlds: a professional URL under your own domain, but with the reliable long-running architecture needed for a database-heavy app like ArogyaX.
+By using a **CNAME** in Vercel pointing to Render, you get the best of both worlds: a professional URL under your own domain, but with the reliable long-running architecture needed for a database-heavy app like ChikitsaX.

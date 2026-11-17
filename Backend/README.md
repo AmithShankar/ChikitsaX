@@ -1,10 +1,10 @@
-# ArogyaX - Backend
+# ChikitsaX - Backend
 
 An async-first clinical API built with **FastAPI** and **PostgreSQL** - designed for real hospital workflows with a layered security model, automatic audit logging on every mutation, and a role-based permission system that goes down to the field level.
 
 ### 🌐 Live API Docs
 
-<a href="https://arogyax-api.amithshankar.in/docs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/View-API_Docs-green?style=for-the-badge&logo=fastapi" alt="API Docs"></a>
+<a href="https://chikitsax-api.amithshankar.in/docs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/View-API_Docs-green?style=for-the-badge&logo=fastapi" alt="API Docs"></a>
 
 ---
 
@@ -47,7 +47,7 @@ The API is tuned for low-latency clinical environments:
 
 ### 📡 API Endpoint Reference
 
-Full interactive documentation at [`/docs`](https://arogyax-api.amithshankar.in/docs) (Swagger) or `/redoc`.
+Full interactive documentation at [`/docs`](https://chikitsax-api.amithshankar.in/docs) (Swagger) or `/redoc`.
 
 | Resource            | Endpoint                       | Auth Required | Description                                             |
 | :------------------ | :----------------------------- | :------------ | :------------------------------------------------------ |

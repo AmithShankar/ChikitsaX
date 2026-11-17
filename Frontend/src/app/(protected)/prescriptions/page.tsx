@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { PrescriptionsClient } from "./_components/PrescriptionsClient";
 
 export const metadata: Metadata = {
-  title: "Prescriptions | ArogyaX",
+  title: "Prescriptions | ChikitsaX",
 };
 
 export default async function PrescriptionsPage() {

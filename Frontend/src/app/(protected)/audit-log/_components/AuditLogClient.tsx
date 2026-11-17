@@ -99,7 +99,7 @@ export function AuditLogClient({ initialData }: AuditLogClientProps) {
       const url = window.URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
-      a.download = `arogyax_audit_${format(new Date(), "yyyyMMdd_HHmm")}.csv`;
+      a.download = `chikitsax_audit_${format(new Date(), "yyyyMMdd_HHmm")}.csv`;
       document.body.appendChild(a);
       a.click();
       window.URL.revokeObjectURL(url);

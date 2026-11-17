@@ -1,4 +1,4 @@
-# ArogyaX Deployment Guide
+# ChikitsaX Deployment Guide
 
 Exact configuration steps for deploying the full-stack system to Supabase, Render, and Vercel.
 
@@ -37,7 +37,7 @@ Create a new **Web Service** on [Render](https://render.com) and connect your re
 - `SUPABASE_SERVICE_KEY`: Your Supabase `service_role` secret (used for cloud storage).
 - `SUPABASE_STORAGE_BUCKET`: `lab-reports`
 - `IS_PRODUCTION`: `True`
-- `CORS_ORIGINS`: Your Vercel domain (e.g., `https://arogyax.vercel.app`).
+- `CORS_ORIGINS`: Your Vercel domain (e.g., `https://chikitsax.vercel.app`).
 - `DB_SSL_MODE`: `require`
 
 ---
@@ -54,13 +54,13 @@ Create a new project on [Vercel](https://vercel.com) and connect your repository
 - **Output Directory**: `.next`
 
 ### Environment Variables:
-- `INTERNAL_BACKEND_URL`: Your Render Web Service URL (e.g., `https://arogyax-api.onrender.com`).
+- `INTERNAL_BACKEND_URL`: Your Render Web Service URL (e.g., `https://chikitsax-api.onrender.com`).
 - `NEXT_PUBLIC_API_URL`: Same as above (used for client-side links).
 
 ---
 
 ## 4. Verification
 
-1. **API Status**: Visit your Render URL. You should see "ArogyaX API is running".
+1. **API Status**: Visit your Render URL. You should see "ChikitsaX API is running".
 2. **Auth Service**: Check `/auth/me` to verify JWT and DB connectivity.
 3. **Login**: Visit the Vercel site and log in with your seeded administrator account.
