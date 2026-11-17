@@ -54,11 +54,11 @@ export default function LoginPage() {
     }
 
     if (result.needsPasswordChange) {
-      router.push("/change-password");
+      window.location.replace("/change-password");
       return;
     }
 
-    router.push("/dashboard");
+    window.location.replace("/dashboard");
   };
 
   return (
