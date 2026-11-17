@@ -1,3 +1,4 @@
+import hashlib
 from datetime import datetime, timedelta, timezone
 from typing import Any
 
@@ -9,8 +10,22 @@ from app.core.config import settings
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
 
+def _get_password_hash(password: str) -> str:
+    """Pre-hash with SHA-256 to support legacy/seeded hashes."""
+    return hashlib.sha256(password.encode()).hexdigest()
+
+
 def verifyPassword(plain_password: str, hashed_password: str) -> bool:
-    return pwd_context.verify(plain_password, hashed_password)
+    try:
+        if pwd_context.verify(plain_password, hashed_password):
+            return True
+    except Exception:
+        pass
+
+    try:
+        return pwd_context.verify(_get_password_hash(plain_password), hashed_password)
+    except Exception:
+        return False
 
 
 def get_password(password: str) -> str:
