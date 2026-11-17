@@ -4,6 +4,16 @@ import { fileURLToPath } from "node:url"
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 
+function getApiUrl() {
+  const envUrl = process.env.NEXT_PUBLIC_API_URL;
+  if (!envUrl) return "http://localhost:8000";
+  let normalized = envUrl.trim().replace(/\/$/, "");
+  if (!normalized.startsWith("http://") && !normalized.startsWith("https://")) {
+    normalized = `https://${normalized}`;
+  }
+  return normalized;
+}
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
@@ -32,15 +42,16 @@ const nextConfig = {
   compress: true,
   trailingSlash: false,
   async rewrites() {
+    const apiUrl = getApiUrl();
     return [
       {
         source: "/api/:path*",
-        destination: `${process.env.NEXT_PUBLIC_API_URL}/:path*`,
+        destination: `${apiUrl}/:path*`,
       },
     ];
   },
   async headers() {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL;
+    const apiUrl = getApiUrl();
     return [
       {
         source: "/(.*)",

@@ -8,17 +8,21 @@ export const DEFAULT_REDIRECT = "/dashboard";
 export const PASSWORD_TYPE_COOKIE = "password-type";
 export const THEME_STORAGE_KEY = "hpms-theme";
 
-function trimTrailingSlash(value: string) {
-  return value.replace(/\/$/, "");
+function normalizeUrl(value: string) {
+  let trimmed = value.trim().replace(/\/$/, "");
+  if (!trimmed.startsWith("http://") && !trimmed.startsWith("https://")) {
+    trimmed = `https://${trimmed}`;
+  }
+  return trimmed;
 }
 
 export function getServerApiBaseUrl() {
   // NEXT_PUBLIC_API_URL should point to the real backend URL
   // for server-to-server communication.
   const envUrl = process.env.NEXT_PUBLIC_API_URL;
-  if (envUrl) return trimTrailingSlash(envUrl);
+  if (envUrl) return normalizeUrl(envUrl);
 
-  return trimTrailingSlash(API_DEV_ORIGIN);
+  return normalizeUrl(API_DEV_ORIGIN);
 }
 
 export function getClientApiBaseUrl() {
